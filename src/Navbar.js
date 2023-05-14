@@ -15,7 +15,7 @@ function Navbar() {
   return (
     <>
       <header>
-<div className="Nav-Toggle-body">
+{/* <div className="Nav-Toggle-body">
         
 <div className='Navbar-Toggle'>
             <div className={`Navbar-Toggle-Menu  ${isToggled ?'Active':''}`}>
@@ -41,7 +41,7 @@ function Navbar() {
           </section>
        </div>
 </div>
-</div>
+</div> */}
         <div className="Nav-test">
           <nav className="Navbar">
             <ul className="Navbar-logo">
