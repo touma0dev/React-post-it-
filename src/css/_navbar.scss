@@ -173,7 +173,7 @@ li,a{
   left: 15%;
   right: 0;
   top: 65%;
-  @include  color.for-phone-only {  display: block; }
+  @include  color.for-phone-only {  display: block;     z-index: 1;}
 }
   .Toggle-menu-toggled {
     width: 16px;
@@ -203,7 +203,7 @@ li,a{
       top: -7px;
       left: -24.6px;
       li:nth-child(1) {
-        a {
+        b {
           &::after {
             content: "";
             position: absolute;
@@ -224,7 +224,7 @@ li,a{
       }
       li:nth-child(2) {
         max-width: fit-content;
-        a {
+        b {
           &::after {
             content: "";
             z-index: 1;
@@ -262,7 +262,7 @@ li,a{
   
   section {
     li:nth-child(1) {
-      a {
+      b {
         &::after {
           transform: rotate(0deg);
           background-color: rgb(255, 255, 255);
@@ -270,7 +270,7 @@ li,a{
       }
     }
     li:nth-child(2) {
-      a {
+      b {
         &::after {
           transform: rotate(0deg);
           background-color: rgb(255, 250, 250);
