@@ -1,17 +1,17 @@
 import React from "react";
 import { Link, Outlet, useMatch, useResolvedPath } from "react-router-dom";
 import { AiFillGithub } from "react-icons/ai";
-import { useState } from "react";
+// import { useState } from "react";
 import { BiNote } from "react-icons/bi";
 // import "./css/App.scss"
 function Navbar() {
-    const[isToggled,Toggled]=useState(false)
-    const Click=(event)=>{
-        Toggled(true)
-        if(isToggled){
-            Toggled(false)
-        }
-    }
+    // const[isToggled,Toggled]=useState(false)
+    // const Click=(event)=>{
+    //     Toggled(true)
+    //     if(isToggled){
+    //         Toggled(false)
+    //     }
+    // }
   return (
     <>
       <header>
