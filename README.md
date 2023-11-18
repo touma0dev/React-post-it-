@@ -4,4 +4,6 @@
 - Usei uma lib de drag and drop para fzr mais rapido .
 - Usa o cookie local do seu navegador , não tenho banco de dados em nuvem .
 # Tecnologia usada :
- Create react app 
+- Create react app
+- React-router-dom
+- Drag-in-drop
